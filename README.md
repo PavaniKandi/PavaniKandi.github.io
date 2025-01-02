@@ -14,14 +14,19 @@ Experienced Full Stack Developer with around 6 years of expertise in building sc
 ---
 
 ## 🛠️ **Skills**
-- **Languages**: JavaScript, TypeScript, Java, SQL  
-- **Frameworks/Libraries**: ReactJS, React Native, Flutter, Node.js, Spring, Spring Boot, Tailwind CSS, Material UI  
-- **Developer Tools**: GIT, Webpack, Babel, Jira, Docker  
-- **Cloud Platforms**: AWS, Firebase  
-- **Database Management**: MySQL, MongoDB  
-- **DevOps Tools**: CI/CD, CodePush  
-- **Other Skills**: Agile Methodologies, API Development, Microservices Architecture, Secure Authentication (OAuth2)  
-
+- **Programming Languages**: JavaScript, TypeScript, Java, SQL, HTML, CSS 
+- **Frameworks & Libraries**: React, React Native, Flutter, Redux, Next.js, Node.js, Express.js, Spring, Spring Boot 
+- **Frontend Development**: Webpack, Babel, Bootstrap, Tailwind CSS, Material-UI 
+- **Backend Development**: Spring Boot, Node.js, REST APIs, Microservices Architecture 
+- **Database Management**: MySQL, PostgreSQL, MongoDB, AWS RDS, Firebase Realtime Database 
+- **Cloud Platforms**: AWS (Lambda, S3, DynamoDB, EC2, API Gateway), Firebase 
+- **DevOps & CI/CD Tools**: Docker, Jenkins, CodePush 
+- **Mobile Development**: React Native, Flutter, Firebase Cloud Messaging, Salesforce Mobile SDK 
+- **Testing Frameworks**: Jest, Enzyme 
+- **Version Control**: Git, GitHub, Bitbucket 
+- **Agile Methodologies**: Scrum, Sprint Planning 
+- **Additional Skills**: API Development, SDK Integration, Scalability Optimization, Security Best Practices
+  
 ---
 
 ## 💼 **Experience**
