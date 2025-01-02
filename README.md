@@ -61,9 +61,7 @@ Experienced Full Stack Developer with around 6 years of expertise in building sc
 
 ## 🎓 **Education**
 - **Master’s in Computer Science** | University of Central Missouri (GPA: 3.50)  
-  *May 2023 – Dec 2024*  
 - **Bachelor’s in Computer Science** | Rajiv Gandhi University of Knowledge & Technology (GPA: 3.60)  
-  *Jun 2016 – Aug 2020*
 
 ---
 
