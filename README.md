@@ -17,7 +17,7 @@ Experienced Full Stack Developer with around 6 years of expertise in building sc
 - **Programming Languages**: JavaScript, TypeScript, Java, SQL, HTML, CSS 
 - **Frameworks & Libraries**: React, React Native, Flutter, Redux, Next.js, Node.js, Express.js, Spring, Spring Boot 
 - **Frontend Development**: Webpack, Babel, Bootstrap, Tailwind CSS, Material-UI 
-- **Backend Development**: Spring Boot, Node.js, REST APIs, Microservices Architecture 
+- **Backend Development**: Spring, Spring Boot, Node.js, REST APIs, Microservices Architecture 
 - **Database Management**: MySQL, PostgreSQL, MongoDB, AWS RDS, Firebase Realtime Database 
 - **Cloud Platforms**: AWS (Lambda, S3, DynamoDB, EC2, API Gateway), Firebase 
 - **DevOps & CI/CD Tools**: Docker, Jenkins, CodePush 
