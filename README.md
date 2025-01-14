@@ -21,12 +21,18 @@ My goal is to continuously learn and contribute to innovative projects that crea
 
 ## Skills
 
-- **Programming Languages:** JavaScript, TypeScript, Java, SQL, HTML5, CSS3
-- **Frontend Technologies:** React, React Native, Flutter, Redux, Material-UI, Tailwind CSS
-- **Backend Technologies:** Node.js, Express.js, Spring Boot, RESTful APIs, GraphQL
-- **Database:** MySQL, PostgreSQL, MongoDB, AWS RDS
-- **Cloud Platforms & DevOps:** AWS (Lambda, S3), Firebase, Docker, Jenkins, CodePush
-- **Tools & Other Skills:** Git, GitHub, CI/CD, Agile, Webpack, Jest, Cypress
+- **Programming Languages:** JavaScript, TypeScript, Java, SQL, HTML, CSS
+- **Frameworks & Libraries:** React, React Native, Flutter, Redux, Next.js, Node.js, Express.js, Spring, Spring Boot
+- **Frontend Development:** Webpack, Babel, Bootstrap, Tailwind CSS, Material-UI
+- **Backend Development:** Spring, Spring Boot, Node.js, REST APIs, Microservices Architecture
+- **Database Management:** MySQL, PostgreSQL, MongoDB, AWS RDS, Firebase Realtime Database
+- **Cloud Platforms:** AWS (Lambda, S3, DynamoDB, EC2, API Gateway), Firebase
+- **DevOps & CI/CD Tools:** Docker, Jenkins, CodePush
+- **Mobile Development:** React Native, Flutter, Firebase Cloud Messaging, Salesforce Mobile SDK
+- **Testing Frameworks:** Jest, Enzyme
+- **Version Control:** Git, GitHub, Bitbucket
+- **Agile Methodologies:** Scrum, Sprint Planning
+- **Additional Skills:** API Development, SDK Integration, Scalability Optimization, Security Best Practices
 
 ## Professional Experience
 
