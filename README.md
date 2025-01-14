@@ -1,92 +1,72 @@
-# Hi, I'm Pavani Kandi! 👋
+# Pavani Kandi - Full Stack Developer
 
-📍 **Location**: Kansas, KS  
-📞 **Phone**: +1-913-915-4926  
-✉️ **Email**: [pavanikandi319@gmail.com](mailto:pavanikandi319@gmail.com)  
-🔗 **LinkedIn**: [linkedin.com/in/pavanik9](https://linkedin.com/in/pavanik9)  
-👨‍💻 **GitHub**: [github.com/pavanikandi](https://github.com/pavanikandi)  
+Welcome to my GitHub portfolio! I'm a passionate Full Stack Developer with expertise in building web and mobile applications. Here's a quick overview of my skills, experience, and projects.
 
----
+## Contact Information
 
-## 🚀 **Objective**
-Experienced Full Stack Developer with around 6 years of expertise in building scalable and high-performing applications. Proficient in both frontend (ReactJS, React Native, Flutter) and backend (Node.js, Spring Boot) development, with extensive experience in cloud technologies (AWS, Firebase). Proven track record of optimizing application performance, mentoring teams, and delivering secure, user-centric solutions. Passionate about leveraging innovative technologies to create impactful solutions aligned with business objectives.
+- **Email:** [pavanikandi319@gmail.com](mailto:pavanikandi319@gmail.com)
+- **LinkedIn:** [linkedin.com/in/pavanik9](https://linkedin.com/in/pavanik9)
+- **GitHub:** [github.com/pavanikandi](https://github.com/pavanikandi)
+- **Phone:** +1-913-915-4926
 
----
+## About Me
 
-## 🛠️ **Skills**
-- **Programming Languages**: JavaScript, TypeScript, Java, SQL, HTML, CSS 
-- **Frameworks & Libraries**: React, React Native, Flutter, Redux, Next.js, Node.js, Express.js, Spring, Spring Boot 
-- **Frontend Development**: Webpack, Babel, Bootstrap, Tailwind CSS, Material-UI 
-- **Backend Development**: Spring, Spring Boot, Node.js, REST APIs, Microservices Architecture 
-- **Database Management**: MySQL, PostgreSQL, MongoDB, AWS RDS, Firebase Realtime Database 
-- **Cloud Platforms**: AWS (Lambda, S3, DynamoDB, EC2, API Gateway), Firebase 
-- **DevOps & CI/CD Tools**: Docker, Jenkins, CodePush 
-- **Mobile Development**: React Native, Flutter, Firebase Cloud Messaging, Salesforce Mobile SDK 
-- **Testing Frameworks**: Jest, Enzyme 
-- **Version Control**: Git, GitHub, Bitbucket 
-- **Agile Methodologies**: Scrum, Sprint Planning 
-- **Additional Skills**: API Development, SDK Integration, Scalability Optimization, Security Best Practices
-  
----
+I am a Full Stack Developer with over 6 years of experience in designing, building, and optimizing web and mobile applications. I specialize in:
 
-## 💼 **Experience**
+- Frontend development using **React** and **React Native**
+- Backend services with **Node.js**, **Spring Boot**
+- Cloud platforms like **AWS** and **Firebase**
 
-### **Full Stack Developer | PurpleTalk | Syngenta(global-client)**  
-*Aug 2021 – May 2023 | Hyderabad, TS*  
-- Developed and deployed mobile apps, admin portals, and backend services with seamless integration.
-- Spearheaded migration to TypeScript, improving maintainability and reducing bugs by 25%.
-- Led a team of 8 developers, boosting performance by 50% using optimized state management.
-- Integrated Salesforce SDK to enhance data security and retrieval efficiency by 30%.
-- Reduced release cycles by 40% using over-the-air updates with CodePush.
+My goal is to continuously learn and contribute to innovative projects that create a positive impact on businesses and users.
 
-### **Web and Application Developer | PurpleTalk**  
-*Dec 2018 – Jul 2021 | Hyderabad, TS*  
-- Optimized UI for a fitness platform, increasing user engagement by 30%.
-- Automated backend tasks using Firebase Cloud Functions, boosting efficiency.
-- Enhanced performance using lazy loading and code splitting, reducing load times by 40%.
+## Skills
+
+- **Programming Languages:** JavaScript, TypeScript, Java, SQL, HTML5, CSS3
+- **Frontend Technologies:** React, React Native, Flutter, Redux, Material-UI, Tailwind CSS
+- **Backend Technologies:** Node.js, Express.js, Spring Boot, RESTful APIs, GraphQL
+- **Database:** MySQL, PostgreSQL, MongoDB, AWS RDS
+- **Cloud Platforms & DevOps:** AWS (Lambda, S3), Firebase, Docker, Jenkins, CodePush
+- **Tools & Other Skills:** Git, GitHub, CI/CD, Agile, Webpack, Jest, Cypress
+
+## Professional Experience
+
+### Full Stack Developer | PurpleTalk | Syngenta (Global Client)
+**Aug 2021 – May 2023**
+
+- Developed and deployed mobile applications, admin portals, and backend services.
+- Migrated a project from JavaScript to TypeScript, improving code maintainability and reducing bugs by 25%.
+- Led a team of 8 developers, enhancing performance by 50% through optimized state management.
+- Integrated Salesforce SDK for secure data handling, boosting efficiency by 30%.
+- Streamlined release processes with CodePush, reducing app update cycles by 40%.
+
+### Web and Application Developer | PurpleTalk | Syngenta (Global Client)
+**Dec 2018 – Jul 2021**
+
+- Enhanced UI for a fitness platform, increasing engagement by 30%.
+- Improved backend task automation with Firebase Cloud Functions.
+- Reduced load times by 40% through lazy loading and code splitting techniques.
 - Created reusable UI components, increasing development efficiency by 20%.
 
+## Projects
+
+### 1. **Medication Inventory Management System**
+- **Tech Stack:** React.js, Node.js, AWS S3, CloudFront, AWS Lambda, KMS, CloudTrail
+- Developed a scalable solution for managing medication inventory with robust security features.
+  
+### 2. **EASY PAY - Payment Mobile App**
+- **Tech Stack:** Flutter, RESTful APIs
+- Designed a payment app with biometric authentication for seamless and secure transactions.
+  
+## Education
+
+**Master’s in Computer Science**  
+University of Central Missouri (GPA: 3.50)
+
+**Bachelor’s in Computer Science**  
+Rajiv Gandhi University (GPA: 3.60)
+
+## Honors & Awards
+
+- **Hackathon Winner** - Best Hackathon Project
+- **Team Collaboration Award** (2 times)
 ---
-
-## 📚 **Top Projects**
-
-### **Medication Inventory Management System**  
-- **Tech Stack**: React.js, AWS S3, CloudFront, AWS Lambda, KMS, CloudTrail  
-- Designed and implemented a secure and scalable solution for medication inventory management.
-
-### **EASY PAY**  
-- **Tech Stack**: Flutter, RESTful APIs  
-- Developed a biometric authentication-based payment app with seamless cross-platform functionality.
-
-### **SHOP IT**  
-- **Tech Stack**: Firebase, HTML, CSS, JavaScript  
-- Built a responsive e-commerce site with real-time database management and optimized UI/UX.
-
----
-
-## 🎓 **Education**
-- **Master’s in Computer Science** | University of Central Missouri (GPA: 3.50)  
-- **Bachelor’s in Computer Science** | Rajiv Gandhi University of Knowledge & Technology (GPA: 3.60)  
-
----
-
-## 🏆 **Certifications**
-- Flutter Development Bootcamp with Dart | Udemy
-
----
-
-## 🌟 **Honors & Awards**
-- **Best Hackathon Project**: Developed an innovative blog-sharing app using React Native.  
-- **Team Collaboration Awards**: Received two Spark awards for exceptional teamwork.  
-
----
-
-## 🤝 **Extracurricular Activities**
-- **React Native Community**: Participated in discussions, learning, and sharing knowledge about React Native development.
-- **Hackathon Participation**: Regular participant in coding challenges, including winning "Best Hackathon Project" for developing an innovative React Native blog-sharing app.
-
----
-
-## ❤️ **Passions**
-- Exploring emerging technologies and building impactful applications.  
-- Hiking and connecting with nature during downtime.
