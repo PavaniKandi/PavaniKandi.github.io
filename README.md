@@ -1,24 +1,18 @@
-# Portfolio Site
+# Portfolio
 
-This is a lightweight single-page portfolio built with plain HTML, CSS, and JavaScript.
+This repo contains my personal portfolio site.
 
-## Files
+It is built with React and Vite.
 
-- `index.html` contains the page structure.
-- `styles.css` contains the visual design and responsive layout.
-- `script.js` contains the portfolio content and renders repeatable sections.
+Main files:
 
-## Customize
+- `src/App.jsx`
+- `src/main.jsx`
+- `src/styles.css`
 
-Update the `portfolio` object at the top of `script.js` to replace the placeholder content:
+To run it locally:
 
-- `hero` for your headline, role, location, and email
-- `about` for your short bio
-- `skills` for your tech stack
-- `projects` for featured work
-- `experience` for roles and internships
-- `contact.links` for your real LinkedIn, GitHub, and email
+- `npm install`
+- `npm run dev`
 
-## Open It
-
-Open `index.html` in a browser to view the site.
+The site is also set up to work with GitHub Pages.

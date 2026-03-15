@@ -1,19 +1,19 @@
 const portfolio = {
   hero: {
     role: "Full Stack Developer",
-    name: "Pavani Kandi builds polished web and mobile products.",
+    name: "Hi, I'm Pavani Kandi.",
     summary:
-      "I’m a full stack developer with 6+ years of experience building responsive web apps, mobile products, and backend services with a strong focus on usability, performance, and maintainable engineering.",
-    currentFocus: "Building scalable web and mobile experiences",
+      "I'm a full stack developer with 6+ years of experience building web and mobile applications. I’ve worked across frontend, backend, and mobile teams, mainly using React, React Native, Node.js, Java, and Spring Boot.",
+    currentFocus: "Building web, mobile, and backend applications",
     currentDescription:
-      "Focused on React, React Native, Node.js, Spring Boot, and cloud-backed product delivery.",
+      "I like working across the full product flow, from UI implementation to APIs, integrations, and production releases.",
     location: "United States",
     email: "pavanikandi319@gmail.com",
-    focusAreas: "React, React Native, Node.js, Spring Boot, AWS",
+    focusAreas: "React, React Native, Node.js, Java, Spring Boot, AWS",
   },
   about: [
-    "I’m a full stack developer who enjoys turning business needs into clean, reliable products. My experience spans frontend development, mobile delivery, backend services, and cloud integrations across fast-moving product teams.",
-    "I care about intuitive interfaces, scalable architecture, reusable systems, and shipping features that improve performance, developer velocity, and the day-to-day experience for users.",
+    "I’ve worked on web applications, mobile apps, admin portals, and backend services in fast-paced product teams. A lot of my experience comes from building features that needed to work well for users and also be practical for the team maintaining them.",
+    "I care about writing clean code, improving performance, and building interfaces that feel straightforward to use. I also enjoy working closely with product and engineering teams to ship things that are actually useful.",
   ],
   skills: [
     "JavaScript",
@@ -22,6 +22,7 @@ const portfolio = {
     "React Native",
     "Next.js",
     "Node.js",
+    "Java",
     "Spring Boot",
     "AWS",
     "Firebase",
@@ -34,16 +35,16 @@ const portfolio = {
       category: "Inventory Platform",
       title: "Medication Inventory Management System",
       description:
-        "Built a scalable inventory management solution with secure cloud infrastructure for tracking medication data, supporting operational reliability and protected access to sensitive workflows.",
+        "Worked on a medication inventory system built to manage sensitive data and support day-to-day operations more reliably. The project involved both application development and secure AWS-based infrastructure.",
       stack: "React.js, Node.js, AWS S3, CloudFront, Lambda, KMS",
-      linkLabel: "GitHub Profile",
+      linkLabel: "GitHub",
       href: "https://github.com/PavaniKandi",
     },
     {
       category: "Mobile App",
       title: "EASY PAY",
       description:
-        "Designed and delivered a payment application focused on secure transactions and frictionless usability, including biometric authentication and streamlined payment flows.",
+        "Built features for a payment mobile app focused on secure and simple transactions. The work included user-facing flows, API integration, and support for biometric authentication.",
       stack: "Flutter, REST APIs, Mobile UX",
       linkLabel: "LinkedIn",
       href: "https://linkedin.com/in/pavanik9",
@@ -52,7 +53,7 @@ const portfolio = {
       category: "Portfolio",
       title: "Developer Portfolio",
       description:
-        "A personal developer portfolio that highlights experience, technical strengths, and selected work through a responsive single-page experience designed for clarity and storytelling.",
+        "This portfolio site is a simple way to share my background, experience, and project work in one place.",
       stack: "HTML, CSS, JavaScript, GitHub Pages",
       linkLabel: "View Repository",
       href: "https://github.com/PavaniKandi/PavaniKandi.github.io",
@@ -64,27 +65,27 @@ const portfolio = {
       role: "Full Stack Developer",
       company: "PurpleTalk | Syngenta",
       description:
-        "Developed mobile applications, admin portals, and backend services; led an 8-developer team; helped migrate JavaScript codebases to TypeScript; and improved delivery speed with better release workflows and state management.",
+        "Worked on mobile apps, admin portals, and backend services for a global client. My work included feature development, JavaScript to TypeScript migration, release improvements, and leading a team of 8 developers.",
     },
     {
       period: "Dec 2018 - Jul 2021",
       role: "Web and Application Developer",
       company: "PurpleTalk | Syngenta",
       description:
-        "Enhanced UI for a fitness platform, improved backend automation with Firebase Cloud Functions, reduced load times with lazy loading and code splitting, and built reusable components that increased team efficiency.",
+        "Worked on UI improvements, Firebase-based backend automation, performance optimizations like lazy loading and code splitting, and reusable components that helped the team move faster.",
     },
     {
       period: "Highlights",
       role: "Education and Recognition",
       company: "University of Central Missouri and prior academic work",
       description:
-        "Completed a Master’s in Computer Science, built a strong foundation across web and mobile engineering, and earned recognition including a hackathon win and multiple team collaboration awards.",
+        "Completed my Master’s in Computer Science at the University of Central Missouri and received recognition including a hackathon win and team collaboration awards.",
     },
   ],
   contact: {
-    heading: "Let’s build something meaningful.",
+    heading: "Get in touch",
     copy:
-      "If you’re hiring, collaborating, or just want to connect, I’d love to hear from you.",
+      "If you'd like to talk about a role or project, feel free to reach out.",
     links: [
       {
         label: "Email Me",
