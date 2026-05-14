@@ -114,6 +114,7 @@ a {
 .intro-copy p,
 .project-row p,
 .experience-item p,
+.impact-list,
 .contact-card p {
   color: var(--muted);
 }
@@ -215,6 +216,7 @@ a {
 .project-row,
 .skill-board,
 .experience-item,
+.credential-item,
 .contact-card {
   padding: 24px;
 }
@@ -252,6 +254,7 @@ a {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   gap: 6px;
+  margin-top: 18px;
 }
 
 .activity-grid span {
@@ -278,7 +281,8 @@ a {
 
 .projects-section,
 .stack-section,
-.experience-section {
+.experience-section,
+.credentials-section {
   padding-top: 46px;
 }
 
@@ -287,9 +291,21 @@ a {
 }
 
 .project-list,
-.experience-list {
+.experience-list,
+.credential-grid {
   display: grid;
   gap: 14px;
+}
+
+.impact-list {
+  display: grid;
+  gap: 10px;
+  margin: 0;
+  padding-left: 18px;
+}
+
+.impact-list li::marker {
+  color: var(--accent);
 }
 
 .project-row {
@@ -360,6 +376,24 @@ a {
   color: var(--muted);
 }
 
+.credential-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.credential-item {
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: var(--panel);
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(18px);
+}
+
+.credential-item span {
+  display: block;
+  color: var(--text);
+  font-weight: 800;
+}
+
 .contact-card {
   display: grid;
   grid-template-columns: minmax(0, 1fr) 320px;
@@ -376,6 +410,7 @@ a {
   .dashboard-shell,
   .intro-grid,
   .project-row,
+  .credential-grid,
   .contact-card {
     grid-template-columns: 1fr;
   }
@@ -399,6 +434,7 @@ a {
   .project-row,
   .skill-board,
   .experience-item,
+  .credential-item,
   .contact-card,
   .workspace-header {
     border-radius: 14px;
