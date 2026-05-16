@@ -109,11 +109,6 @@ const credentials = [
   "MS Computer Science: AI, ML, Cloud Computing, Advanced Algorithms",
 ]
 
-const activityCells = Array.from({ length: 60 }, (_, index) => {
-  const pattern = [0, 1, 2, 3, 1, 0, 2, 4, 1, 3, 0, 2]
-  return pattern[index % pattern.length]
-})
-
 function App() {
   return (
     <div className="dashboard-shell">
@@ -174,18 +169,12 @@ function App() {
                 <p className="eyebrow">Impact Snapshot</p>
                 <h3>Production signals</h3>
               </div>
-              <span>Resume-backed</span>
             </div>
             <ul className="impact-list">
               {impactSignals.map((item) => (
                 <li key={item}>{item}</li>
               ))}
             </ul>
-            <div className="activity-grid" aria-label="Mock GitHub activity grid">
-              {activityCells.map((level, index) => (
-                <span className={`level-${level}`} key={`${level}-${index}`} />
-              ))}
-            </div>
           </div>
         </section>
 

@@ -250,35 +250,6 @@ a {
   margin-bottom: 0;
 }
 
-.activity-grid {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  gap: 6px;
-  margin-top: 18px;
-}
-
-.activity-grid span {
-  aspect-ratio: 1;
-  border-radius: 5px;
-  background: rgba(255, 255, 255, 0.045);
-}
-
-.activity-grid .level-1 {
-  background: rgba(125, 242, 210, 0.16);
-}
-
-.activity-grid .level-2 {
-  background: rgba(125, 242, 210, 0.32);
-}
-
-.activity-grid .level-3 {
-  background: rgba(101, 167, 255, 0.42);
-}
-
-.activity-grid .level-4 {
-  background: rgba(255, 154, 103, 0.54);
-}
-
 .projects-section,
 .stack-section,
 .experience-section,
