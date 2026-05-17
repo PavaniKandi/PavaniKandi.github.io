@@ -266,7 +266,7 @@ const STACK = {
 
 const EXP = [
   {
-    role:    "Full Stack Developer",
+    role:    "Software Developer",
     company: "Deloitte",
     period:  "Mar 2025 – Present",
     badge:   "Current",
@@ -286,7 +286,7 @@ const EXP = [
     ],
   },
   {
-    role:    "Full Stack Developer",
+    role:    "Associate Analyst",
     company: "PurpleTalk",
     period:  "Sep 2020 – Jul 2023",
     badge:   "",
@@ -304,7 +304,7 @@ const EXP = [
     ],
   },
   {
-    role:    "Software Developer",
+    role:    "Software Intern",
     company: "PurpleTalk",
     period:  "Dec 2018 – Aug 2020",
     badge:   "Intern → FTE",
@@ -453,7 +453,7 @@ function Nav() {
       transition:"background .35s, backdrop-filter .35s, border-color .35s",
     }}>
       <a href="#" style={{ fontFamily:"JetBrains Mono,monospace", fontSize:14, color:"var(--gold)", textDecoration:"none", letterSpacing:"0.1em" }}>
-        PK_
+        PK
       </a>
       <div className="nav-links" style={{ display:"flex", gap:32, alignItems:"center" }}>
         {links.map(([l, h]) => {
@@ -531,16 +531,6 @@ function Hero() {
 
       <div style={{ maxWidth:1200, width:"100%", margin:"0 auto", position:"relative" }}>
 
-        {/* pre-label */}
-        <div style={{
-          fontFamily:"JetBrains Mono,monospace", fontSize:11,
-          color:"var(--gold)", letterSpacing:"0.26em", marginBottom:52,
-          opacity: ready ? 1 : 0,
-          transition:`opacity .9s ${ease} .1s`,
-        }}>
-          PORTFOLIO · ENGINEERING
-        </div>
-
         {/* name — scramble effect */}
         <div style={{ marginBottom:18 }}>
           <ScrambleWord word="PAVANI" outline={false} ready={ready} stagger={0} />
@@ -557,7 +547,7 @@ function Hero() {
           transition:"opacity .9s cubic-bezier(0.16,1,0.3,1) .5s, transform .9s cubic-bezier(0.16,1,0.3,1) .5s",
           letterSpacing:"0.08em",
         }}>
-          Senior Frontend Engineer · Full-Stack Product Engineering
+          Senior Frontend Engineer · Full-Stack Product Engineer
         </div>
 
         {/* desc + CTA */}
