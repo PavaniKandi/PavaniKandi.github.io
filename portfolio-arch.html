@@ -81,12 +81,12 @@
 
     .tech-card {
       display: flex; flex-direction: column; align-items: center;
-      gap: 8px; padding: 14px 10px;
+      gap: 8px; padding: 14px 12px;
       border-radius: 4px;
       cursor: default;
       position: relative;
       transition: all 0.28s ease;
-      min-width: 82px;
+      min-width: 96px;
     }
 
     .tech-card:hover { transform: translateY(-3px); }
@@ -121,6 +121,7 @@
       border-radius: 2px;
       letter-spacing: 0.07em;
       transition: all 0.2s ease;
+      white-space: nowrap;
     }
     .proj-chip:hover { color: var(--text); border-color: rgba(255,255,255,0.2); }
 
@@ -376,6 +377,8 @@ function TechCard({ t, layerColor, activeProject }) {
   const active = isAll || t.p.includes(activeProject);
   const projColor = activeProject !== "all" ? PROJECTS[activeProject].color : layerColor;
 
+  if (!isAll && !active) return null;
+
   return (
     <div className="tech-card"
       onMouseEnter={() => setTip(true)}
@@ -597,32 +600,34 @@ function App() {
 
       {/* ── project filter ── */}
       <div style={{
-        padding:"20px 48px",
+        padding:"16px 48px",
         borderBottom:"1px solid var(--border)",
-        display:"flex", gap:8, flexWrap:"wrap", alignItems:"center",
         background:"rgba(255,255,255,0.015)",
         position:"sticky", top:54, zIndex:90,
         backdropFilter:"blur(16px)",
       }}>
-        <span style={{ fontFamily:"JetBrains Mono,monospace", fontSize:9, color:"var(--muted)", letterSpacing:"0.22em", marginRight:8, whiteSpace:"nowrap" }}>
-          TRACE PROJECT →
-        </span>
-        {Object.entries(PROJECTS).map(([id, p]) => (
-          <button key={id} className="proj-chip"
-            onClick={() => setProj(id)}
-            style={{
-              background:   proj===id ? p.color : "transparent",
-              color:        proj===id ? "#060608" : "var(--muted)",
-              borderColor:  proj===id ? p.color : "var(--border)",
-              fontWeight:   proj===id ? 600 : 400,
-            }}>
-            {p.name.toUpperCase()}
-          </button>
-        ))}
-        {proj !== "all" && (
-          <span style={{ marginLeft:8, fontFamily:"JetBrains Mono,monospace", fontSize:10, color:PROJECTS[proj].color, opacity:.8 }}>
-            → {PROJECTS[proj].desc}
+        <div style={{ display:"flex", gap:8, alignItems:"center", overflowX:"auto", flexWrap:"nowrap", paddingBottom:2 }}>
+          <span style={{ fontFamily:"JetBrains Mono,monospace", fontSize:9, color:"var(--muted)", letterSpacing:"0.22em", marginRight:8, flexShrink:0 }}>
+            TRACE PROJECT →
           </span>
+          {Object.entries(PROJECTS).map(([id, p]) => (
+            <button key={id} className="proj-chip"
+              onClick={() => setProj(id)}
+              style={{
+                background:   proj===id ? p.color : "transparent",
+                color:        proj===id ? "#060608" : "var(--muted)",
+                borderColor:  proj===id ? p.color : "var(--border)",
+                fontWeight:   proj===id ? 600 : 400,
+                flexShrink:   0,
+              }}>
+              {p.name.toUpperCase()}
+            </button>
+          ))}
+        </div>
+        {proj !== "all" && (
+          <div style={{ marginTop:8, fontFamily:"JetBrains Mono,monospace", fontSize:10, color:PROJECTS[proj].color, opacity:.8, letterSpacing:"0.06em" }}>
+            → {PROJECTS[proj].desc}
+          </div>
         )}
       </div>
 
