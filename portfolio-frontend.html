@@ -324,20 +324,12 @@ const EXP = [
 
 const PROJECTS = [
   {
-    title:    "State Benefits Platform",
-    org:      "Deloitte · 2025 · Full Stack",
-    desc:     "Statewide platform enabling 100K+ residents to access SNAP, Cash, Medicaid, LIHEAP, and LIHWAP benefits. Full-stack ownership across React + PrimeReact frontend, Spring Boot microservices, dual-database architecture (PostgreSQL + Oracle DB), RabbitMQ event-driven messaging, and Redis RBAC. The constraint: modernizing legacy EJB monoliths running on IBM WebSphere without disrupting live benefit delivery for vulnerable populations.",
-    tech:     ["React", "TypeScript", "PrimeReact", "Storybook", "Spring Boot", "Java", "PostgreSQL", "Oracle DB", "RabbitMQ", "Redis", "AWS Fargate", "Microsoft Entra ID", "Liquibase", "Docker", "Jest", "React Testing Library", "GitHub Actions"],
+    title:    "State Benefits Platform + GenAI Case System",
+    org:      "Deloitte · 2025 · AI + Full Stack",
+    desc:     "Statewide platform enabling 100K+ residents to access SNAP, Cash, Medicaid, LIHEAP, and LIHWAP benefits. Full-stack ownership across React + PrimeReact frontend, Spring Boot microservices, dual-database architecture (PostgreSQL + Oracle DB), RabbitMQ event-driven messaging, and Redis RBAC — all while modernizing legacy EJB monoliths on IBM WebSphere without disrupting live benefit delivery. Built on top: a production GenAI system using AWS Bedrock + Claude API that auto-generates structured case comments, validates outputs in real time, and enforces compliance templates across multi-user regulated workflows.",
+    tech:     ["React", "TypeScript", "PrimeReact", "Storybook", "AWS Bedrock", "Claude API", "Spring Boot", "Java", "Node.js", "PostgreSQL", "Oracle DB", "RabbitMQ", "Redis", "AWS Fargate", "Microsoft Entra ID", "Liquibase", "Docker", "Jest", "React Testing Library", "GitHub Actions"],
     accent:   "var(--gold)",
     featured: true,
-  },
-  {
-    title:    "GenAI Case Comment Platform",
-    org:      "Deloitte · 2025 · AI + Full Stack",
-    desc:     "Production LLM system built for public-benefit caseworkers. AWS Bedrock + Claude API auto-generate structured case comments, validate outputs in real time, and enforce compliance templates across multi-user workflows. Had to integrate into an existing regulated environment without disrupting established workflows — the UX had to feel nearly invisible.",
-    tech:     ["React", "TypeScript", "AWS Bedrock", "Claude API", "Spring Boot", "Java", "PostgreSQL", "Redis", "Docker", "GitHub Actions"],
-    accent:   "var(--gold)",
-    featured: false,
   },
   {
     title:    "SmartAgro — Agricultural CRM",
