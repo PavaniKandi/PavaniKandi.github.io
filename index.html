@@ -281,6 +281,10 @@ const EXP = [
       "Rewrote a legacy Java monolith into Spring Boot microservices with a Node.js API gateway to serve lightweight JSON payloads directly to mobile REST consumer loops, accelerating feature delivery by 28%",
       "Reviewed 250+ pull requests and implemented Jest + React Testing Library suites - raised team code coverage from 65% to 89%",
       "Integrated distributed request tracing with correlation IDs, RabbitMQ listeners, and Datadog across core endpoints to isolate mobile API bottlenecks, cutting MTTR by 42%",
+      "Integrated ReactFlow to render interactive eligibility decision trees and workflow visualizations, reducing caseworker navigation time by 35%",
+      "Embedded Amazon Connect Streams softphone and call screen-pop directly into the caseworker portal, reducing average handle time by 20%",
+      "Integrated Apache Tika and PDFBox for OCR-driven document processing, eliminating manual data entry for 80% of incoming applicant document submissions",
+      "Deployed containerized Spring Boot microservices on AWS Fargate behind an Application Load Balancer, enabling auto-scaling under peak public-sector traffic",
     ],
   },
   {
@@ -300,6 +304,9 @@ const EXP = [
       "Authored custom Okta authentication widget - standardized OAuth2/SSO access across international user bases",
       "Cut deployment hotfix latency from days to minutes via CodePush OTA and Fastlane CI/CD - managed 50+ App Store and Play Store releases",
       "Audited and remediated both mobile and admin portal surfaces against WCAG 2.1 AA - applied ARIA landmark roles, keyboard navigation, and live region announcements, reducing accessibility-related support tickets by 30%",
+      "Migrated React Native codebases from JavaScript to TypeScript with typed API contracts, reducing runtime errors by 40%",
+      "Implemented MMKV Encrypted Storage replacing AsyncStorage, delivering 10x faster read and write performance across iOS and Android",
+      "Designed GraphQL schemas and resolvers with field-level authorization and request batching, achieving consistent sub-100ms response times under concurrent load",
     ],
   },
   {
@@ -318,6 +325,9 @@ const EXP = [
       "Optimized JavaScript bundle with Webpack code splitting and lazy loading - 35% initial load time reduction",
       "Managed shared component library across React Native mobile and React web inside an NX Monorepo - reduced duplicate UI code by 40% and accelerated feature parity across both platforms",
       "Migrated OTA pipeline to EAS Update - configured per-environment Hermes bytecode-diff channels, cut bundle delivery size by 74% and enabled same-day critical patch distribution to 100% of active users",
+      "Built React Native application on New Architecture with Fabric renderer and TurboModules, eliminating legacy bridge overhead",
+      "Managed phased production releases via EAS Update channel targeting, validating builds against 5% of users before full promotion, reducing post-release incident rates by 41%",
+      "Built gamification engine supporting real-time badge unlocks, reward points, and marketplace redemptions serving 25,000+ active users",
     ],
   },
 ];
@@ -557,7 +567,7 @@ function Hero() {
           transition:`opacity .95s ${ease} .65s, transform .95s ${ease} .65s`,
         }}>
           <p style={{ fontFamily:"DM Sans,sans-serif", fontSize:18, lineHeight:1.78, color:"var(--text-2)", maxWidth:520 }}>
-            6+ years building digital products across the full stack - React, React Native, Spring Boot, and cloud infrastructure. Currently at Deloitte engineering state-scale platforms, previously shipping to 1M+ users at Syngenta.
+            6+ years building production-grade web and mobile applications across React, React Native, TypeScript, Spring Boot, Node.js, and AWS. Currently at Deloitte delivering full-stack features across a 100K+ user public-sector platform, previously shipping to 1M+ users across mobile and enterprise SaaS.
           </p>
           <div style={{ display:"flex", gap:16, justifyContent:"flex-end", flexWrap:"wrap", alignItems:"center" }}>
             <MagneticBtn href="#projects" primary>View work</MagneticBtn>
@@ -675,10 +685,10 @@ function About() {
           </h2>
 
           <p style={{ fontFamily:"DM Sans,sans-serif", fontSize:17, lineHeight:1.85, color:"var(--text-2)", maxWidth:580, marginBottom:20 }}>
-            Started as an intern in 2018 building React components for agricultural field workers. Got deep into performance optimization. Six years later, I'm architecting AI-powered platforms at Deloitte and have shipped to over a million users across web and mobile. In between: a master's degree, a few hundred production deploys, and a lot of TypeScript.
+            Started as an intern in 2018 building React Native apps for enterprise field teams. Stayed to work on performance, offline-first sync, and mobile architecture. Six years later, I'm delivering full-stack features on a public-sector platform at Deloitte - React, Spring Boot, Node.js, and AWS - and have shipped to over a million users across web and mobile.
           </p>
           <p style={{ fontFamily:"DM Sans,sans-serif", fontSize:17, lineHeight:1.85, color:"var(--text-2)", maxWidth:580 }}>
-            My work shows up in component libraries, offline-first mobile apps, design systems, and AI-powered workflow tools. I treat WCAG as a floor, not a checkbox. I test because I've been burned by regressions. TypeScript by default because runtime errors in production aren't fun for anyone.
+            My work spans component libraries, design systems, offline-first mobile apps, microservices, and AI-integrated workflow tools. TypeScript by default. WCAG as a floor. Tests because I've been burned by regressions. I care about code that holds up in production, not just in demos.
           </p>
 
           <div style={{ display:"flex", gap:28, marginTop:40, flexWrap:"wrap" }}>
