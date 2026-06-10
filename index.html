@@ -438,7 +438,7 @@ function Nav() {
   const links = [
     ["About","#about"],["Stack","#stack"],["Work","#work"],
     ["Impact","#impact"],["Projects","#projects"],
-    ["Systems","portfolio-arch.html"],
+    // ["Systems","portfolio-arch.html"],  // COMMENTED OUT
     ["Contact","#contact"],
   ];
 
@@ -910,75 +910,8 @@ function Impact() {
 
 /* ─── projects ───────────────────────────────────────────── */
 
-function Projects() {
-  const [ref, vis] = useInView(0.08);
-  return (
-    <section id="projects" ref={ref} className="sp" style={{ maxWidth:1200, margin:"0 auto" }}>
-      <div style={{
-        opacity: vis ? 1 : 0, transform: vis ? "translateY(0)" : "translateY(22px)",
-        transition:"opacity .9s cubic-bezier(0.16,1,0.3,1), transform .9s cubic-bezier(0.16,1,0.3,1)",
-      }}>
-        <SectionLabel n="05" label="FEATURED PROJECTS" />
-        <h2 style={{
-          fontFamily:"Fraunces,serif", fontSize:"clamp(28px, 3vw, 44px)",
-          fontWeight:700, color:"var(--text-1)", letterSpacing:"-0.02em", marginBottom:52,
-        }}>
-          Things I've shipped
-        </h2>
-
-        <div className="proj-grid" style={{ display:"grid", gridTemplateColumns:"1fr 1fr", gap:2, gridTemplateRows:"auto" }}>
-          {PROJECTS.map((p, i) => (
-            <div key={i}
-              className={p.featured ? "proj-feat" : ""}
-              style={{
-                gridColumn: p.featured ? "1 / -1" : "auto",
-                background:"var(--bg-card)",
-                padding: p.featured ? "48px" : "36px",
-                borderTop:`3px solid ${p.accent}`,
-                opacity: vis ? 1 : 0,
-                transform: vis ? "translateY(0)" : "translateY(22px)",
-                transition:`opacity .8s cubic-bezier(0.16,1,0.3,1) ${i*.15}s, transform .8s cubic-bezier(0.16,1,0.3,1) ${i*.15}s, background .28s`,
-              }}
-              onMouseEnter={e => e.currentTarget.style.background = "var(--bg-hover)"}
-              onMouseLeave={e => e.currentTarget.style.background = "var(--bg-card)"}
-            >
-              <div style={{ fontFamily:"JetBrains Mono,monospace", fontSize:11, color:p.accent, letterSpacing:"0.14em", marginBottom:14 }}>
-                {p.org}
-              </div>
-              <h3 style={{
-                fontFamily:"Fraunces,serif",
-                fontSize: p.featured ? 28 : 22,
-                fontWeight:700, color:"var(--text-1)", lineHeight:1.2, marginBottom:16,
-              }}>
-                {p.title}
-              </h3>
-              <p style={{
-                fontFamily:"DM Sans,sans-serif", fontSize:15, lineHeight:1.78,
-                color:"var(--text-2)", marginBottom:28,
-                maxWidth: p.featured ? 720 : "none",
-              }}>
-                {p.desc}
-              </p>
-              <div style={{ display:"flex", flexWrap:"wrap", gap:8 }}>
-                {p.tech.map(t => (
-                  <span key={t} style={{
-                    fontFamily:"JetBrains Mono,monospace", fontSize:11, letterSpacing:"0.04em",
-                    color:"var(--text-3)", border:"1px solid var(--border)", padding:"4px 10px",
-                    transition:"color .2s, border-color .2s",
-                  }}
-                  onMouseEnter={e => { e.currentTarget.style.color="var(--text-1)"; e.currentTarget.style.borderColor="var(--border-gold)"; }}
-                  onMouseLeave={e => { e.currentTarget.style.color="var(--text-3)"; e.currentTarget.style.borderColor="var(--border)"; }}>
-                    {t}
-                  </span>
-                ))}
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
-}
+// "Things I've shipped" section hidden — return null to disable
+function Projects() { return null; }
 
 /* ─── personal projects ──────────────────────────────────── */
 
